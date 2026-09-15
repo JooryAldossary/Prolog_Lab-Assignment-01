@@ -1,0 +1,29 @@
+?- father(ali_father, joory).
+true.
+
+?- father(khalid, ali_son).
+true.
+
+?- mother(hana, muhannad).
+true.
+
+?- mother(ghaida, ali_son).
+true.
+
+?- sister(joory, khalid).
+true.
+
+?- sister(joory, battal).
+true.
+
+?- brother(muhannad, joory).
+true.
+
+?- brother(battal, khalid).
+true.
+
+?- father(ghaida, ali_son).
+false.
+
+?- sister(khalid, joory).
+false.
